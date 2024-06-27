@@ -21,12 +21,11 @@ This repository contains code for training a deep neural network to predict car 
 
 ## How to Run
 
-1. **Clone the repository:**
+Clone the repository:
 
-```sh
+
 git clone https://github.com/your-username/car-price-prediction.git
 cd car-price-prediction
-```sh
 
 Install dependencies:
 
@@ -57,11 +56,9 @@ Monitoring
 Prometheus metrics server is set up to monitor training and validation metrics in real-time.
 
 
-```sh
 from prometheus_client import start_http_server, Summary, Gauge
 
 # Start Prometheus metrics server
 start_http_server(8000)
 
-```sh
 
